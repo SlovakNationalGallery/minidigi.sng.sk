@@ -1,6 +1,6 @@
 ## Minidigi SNG
 
-Source code of the website [http://minidig.sng.sk](http://minidig.sng.sk)
+Source code of the website [http://minidigi.sng.sk](http://minidigi.sng.sk)
 
 Built using the [Laravel 4](http://laravel.com/) 
 

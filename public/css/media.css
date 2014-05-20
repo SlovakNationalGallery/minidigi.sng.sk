@@ -1,0 +1,53 @@
+/*==========================================================================
+RESPONSIVE
+========================================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+h1 {font-size: 50px;line-height: 58px;color: #111;}
+h2 {font-size: 32px;line-height: 40px;}
+h3 {font-size: 28px;line-height: 36px;}
+.separator-title{margin-top:0px;margin-bottom:0px;position:relative;}
+.separator-title span.separator-subheader{top:18px;}
+.separator-title h2.separator-mainheader{top:-22px;}
+.header-image{background-color:#333;height:400px;width:100%;}
+blockquote {width: 700px; margin: 0 auto;}
+hr.dividerline {width: 748px;margin:10px 10px 20px 10px;}
+footer .footer-border{border-top: dotted 1px #ccc;height:1px;width:100%;margin-top:0px;float:left;}
+footer .copyright p{font-size:12px;}
+footer .footer-inside{text-align:center;padding:0px 0px 0px 0px;}
+.smallsection-textwithbutton {padding:25px 0px;}
+
+
+@media only screen and (max-width: 767px) {
+h1 {font-size: 46px;line-height: 54px;color: #111;}
+h2 {font-size: 28px;line-height: 36px;}
+h3 {font-size: 24px;line-height: 32px;}
+.left-wrapper {text-align: center;}
+.right-wrapper {text-align: center;}
+hr.dividerline {width: 400px;margin:10px 10px 20px 10px;}
+.separator{background-color:#eee;height:3px;}
+.separator-title{margin-top:0px;margin-bottom:0px;position:relative;}
+.separator-title span.separator-subheader{top:18px;}
+.separator-title h2.separator-mainheader{top:-20px;padding-right:10px;}
+.about-video{padding-bottom:20px;}
+blockquote {width: 400px; margin: 0 auto;}
+footer .footer-border{margin-top:25px;}
+footer .copyright{text-align:center;}
+footer .social-footer{text-align:center;margin:0 auto;}
+footer .footer-inside{text-align:center;padding: 30px 0px 0px 0px;}
+footer .footer-inside.end{text-align:center;padding: 0px 0px 10px 0px;}
+.quote{padding-top:25px;}
+}
+
+@media only screen and (max-width: 479px) {
+h1 {font-size: 42px;line-height: 50px;color: #111;}
+h2 {font-size: 24px;line-height: 32px;}
+h3 {font-size: 20px;line-height: 28px;}
+h4 {font-size: 18px;line-height: 26px;}
+.heading-text{min-height:50px;height:auto; margin-bottom: 0px; }
+.heading-text.long{min-height:85px; }
+hr.dividerline {width: 280px;margin:10px 10px 20px 10px;}
+blockquote {width: 280px; margin: 0 auto;}
+.quote{margin-top:0px;padding-top:15px;}
+footer .copyright{text-align:center;min-height:48px;}
+}
