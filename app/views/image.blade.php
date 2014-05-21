@@ -41,11 +41,13 @@
             attribution: 'majetok SNG'
         }).addTo(map);
 
-        @foreach ($artworks as $artwork)
-        	@if (!empty($artwork['position_bottom']) && !empty($artwork['position_right']))
-	        	L.marker([{{$artwork['position_bottom']}}, {{$artwork['position_right']}}]).bindPopup('<b>{{$artwork['author']}}</b><br>{{$artwork['name']}}<br><a href="{{$artwork['url']}}">webumenia</a>').addTo(map);
-        	@endif
-        @endforeach
+        @if(!empty($artworks))
+            @foreach ($artworks as $artwork)
+            	@if (!empty($artwork['position_bottom']) && !empty($artwork['position_right']))
+    	        	L.marker([{{$artwork['position_bottom']}}, {{$artwork['position_right']}}]).bindPopup('<b>{{$artwork['author']}}</b><br>{{$artwork['name']}}<br><a href="{{$artwork['url']}}">webumenia</a>').addTo(map);
+            	@endif
+            @endforeach
+        @endif
 
 
     @endif
